@@ -1,7 +1,7 @@
 " piano effect
 function! PlaySound()
   py import random, vim; vim.command("let number = " + str(random.randint(1, 9)))
-  let play = join(["!afplay ~/.vim/support/cmj/", ".aiff &"], number)
+  let play = join(["!afplay ../assets/cmj/", ".aiff &"], number)
   silent! exec play
 endfunction
 
