@@ -1,8 +1,7 @@
 # vim-piano
 
 When you typing in insertion mode, vim-piano play piano sound
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OruDjlquTUY" frameborder="0" allowfullscreen></iframe>
+- [video](https://www.youtube.com/watch?v=OruDjlquTUY)
 
 ## Installation
 
