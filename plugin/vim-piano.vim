@@ -1,7 +1,9 @@
 " piano effect
+let s:dir = expand('<sfile>:p:h')
 function! PlaySound()
   py import random, vim; vim.command("let number = " + str(random.randint(1, 9)))
-  let play = join(["!afplay ../assets/cmj/", ".aiff &"], number)
+  let play = join(["!afplay ", "/../assets/cmj/"], s:dir)
+  let play = join([play, ".aiff &"], number)
   silent! exec play
 endfunction
 
