@@ -17,13 +17,13 @@ and paste:
 
 ## Basic Usage
 
-Press <F8> to toggle piano sound
+Press \<F8\> to toggle piano sound
 
 ## Redefine toggle key
 
 To remap the default toggle key
 
-let g:togglePianoKey='<F7>'
+let g:togglePianoKey="\<F7\>"
 
 ## Sound Effect Copyright
 
